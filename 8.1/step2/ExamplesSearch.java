@@ -24,7 +24,7 @@ class ImageData {
   }
 }
 class ExamplesSearch {
-  ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
+  ImageData i1 = new ImageData("ubc ece mcld building", "png", 600, 400);
   boolean testLargerThan(Tester t) {
     return t.checkExpect(i1.largerThan(600, 400), true) &&
            t.checkExpect(i1.largerThan(601, 400), false) &&

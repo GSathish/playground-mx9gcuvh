@@ -29,7 +29,7 @@ class LargerThan {
   }
 }
 class ExamplesSearch {
-  ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
+  ImageData i1 = new ImageData("ubc ece mcld building", "png", 600, 400);
   LargerThan lg1 = new LargerThan(600, 400);
   LargerThan lg2 = new LargerThan(601, 400);
   LargerThan lg3 = new LargerThan(600, 401);

@@ -42,7 +42,7 @@ class LargerThan implements ImageQuery {
 }
 
 public class ExamplesSearch {
-  ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
+  ImageData i1 = new ImageData("ubc ece mcld building", "png", 600, 400);
   ImageQuery lg1 = new LargerThan(600, 400);
   ImageQuery me1 = new MatchesExtension("jpg");
 
