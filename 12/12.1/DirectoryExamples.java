@@ -25,9 +25,9 @@ class StudentDirectory {
 }
 class DirectoryExamples {
   void testLookupStudents(Tester t) {
-    StudentInfo si1 = new StudentInfo("Mike Judge", "judgefanmail@alumni.ucsd.edu", "PHYS");
-    StudentInfo si2 = new StudentInfo("Benicio del Toro", "beniciofanmail@honoraryalumni.ucsd.edu", "Undeclared");
-    StudentInfo si3 = new StudentInfo("Jimmy O. Yang", "jimmyyangfanmail@alumni.ucsd.edu", "ECON");
+    StudentInfo si1 = new StudentInfo("Bing Thom", "bingthom@alumni.ubc.ca", "SALA");
+    StudentInfo si2 = new StudentInfo("Justin Trudeau", "jtrudeau@alumni.ubc.ca", "Education");
+    StudentInfo si3 = new StudentInfo("Rick Hansen", "rickhansen@alumni.ubc.ca", "Law");
     StudentInfo[] infos = { si1, si2, si3 };
     String[] pids = {"A123", "A345", "A678"};
     StudentDirectory studentTable = new StudentDirectory(pids, infos);
