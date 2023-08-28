@@ -17,11 +17,11 @@ class ClassDatabase {
 }
 class ClassDatabaseExamples {
   void testLookupClasses(Tester t) {
-    String[] sectionIds = {"110123", "110124", "110223", "110224"};
-    String[] classes = { "CSE11", "CSE11", "CSE12", "CSE12" };
+    String[] sectionIds = {"101", "102", "103", "201"};
+    String[] classes = { "CPEN221A", "CPEN221B", "CPEN223", "CPEN212" };
     ClassDatabase classTable = new ClassDatabase(sectionIds, classes);
-    t.checkExpect(classTable.find("110123"), "CSE11");
-    t.checkExpect(classTable.find("110223"), "CSE12");
-    t.checkExpect(classTable.find("11nothing"), null);
+    t.checkExpect(classTable.find("101"), "CPEN221A");
+    t.checkExpect(classTable.find("103"), "CPEN223");
+    t.checkExpect(classTable.find("1A1"), null);
   }
 }
