@@ -1,12 +1,12 @@
 class ExamplesSearch {
-  ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
-  ImageData i2 = new ImageData("data science ai artificial intelligence", "png", 500, 400);
+  ImageData i1 = new ImageData("ubc ece computer engineering", "png", 600, 400);
+  ImageData i2 = new ImageData("data science engineering ai artificial intelligence", "png", 500, 400);
 
   ImageQuery lg1 = new LargerThan(600, 400);
   ImageQuery me1 = new MatchesExtension("png");
-  ImageQuery ck1 = new ContainsKeyword("ucsd");
+  ImageQuery ck1 = new ContainsKeyword("ubc");
   ImageQuery ck2 = new ContainsKeyword("data");
-  ImageQuery ck3 = new ContainsKeyword("science");
+  ImageQuery ck3 = new ContainsKeyword("engineering");
 
 }
 
