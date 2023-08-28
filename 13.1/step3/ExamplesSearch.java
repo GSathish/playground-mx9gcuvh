@@ -1,7 +1,7 @@
 class ExamplesSearch {
   ImageQuery lg1 = new LargerThan(600, 400);
   ImageQuery me1 = new MatchesExtension("png");
-  ImageQuery ck1 = new ContainsKeyword("ucsd");
+  ImageQuery ck1 = new ContainsKeyword("ubc");
   ImageQuery ck2 = new ContainsKeyword("data");
   ImageQuery all5 = this.lg1.and(this.me1).and(this.ck1).and(this.ck2);
 }
